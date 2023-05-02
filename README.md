@@ -54,6 +54,17 @@ So through this application I learned about sql queries, how to join database wi
 
 Here I attached somescreenshots and links.
 
+![main_list](./assets/images/mainList.png)
+![edit_employeeinfo](./assets/images/Edit_EmployeeInfo.png)
+![edit_departments](./assets/images/Edit_Departments.png)
+![edit_roles](./assets/images/Edit_Roles.png)
+![validation_string](./assets/images/validation_string_nomorethan30char.png)
+![validation_number](./assets/images/validation_salary_numberOnly.png)
+
+A walkthrough video demonstrating the functionality of the application.
+
+The URL of the GitHub repository, with a unique name and a README describing the project.-
+https://github.com/avanijadeja/employee-tracker
 
 
 ## Credits
