@@ -501,3 +501,9 @@ function runApp() {
     });
 }
 
+
+
+function quit() {
+    process.exit();
+  }
+  
