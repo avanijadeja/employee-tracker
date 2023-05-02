@@ -63,7 +63,7 @@ Here I attached somescreenshots and links.
 ![view_data](./assets/images/view_data.png)
 
 A walkthrough video demonstrating the functionality of the application.-
-https://drive.google.com/file/d/1OXYx11l4DZJd1iC6rfmaLo_JKvUzP9oH/view
+https://drive.google.com/file/d/1OXYx11l4DZJd1iC6rfmaLo_JKvUzP9oH/view?usp=sharing
 
 
 The URL of the GitHub repository, with a unique name and a README describing the project.-
