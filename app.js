@@ -398,3 +398,35 @@ function editEmployeeOptions() {
         }
     })
 };
+
+
+// Options to make changes to roles
+function editRoleOptions() {
+    inquirer.prompt({
+        name: "editRoles",
+        type: "list",
+        message: "What would you like to update?",
+        choices: [
+            "Add A New Role",
+            "Update A Role",
+            "Remove A Role",
+            "Return To Main Menu"
+        ]
+    }).then(responses => {
+        switch (responses.editRoles) {
+            case "Add A New Role":
+                addRole();
+                break;
+            case "Update A Role":
+                updateRole();
+                break;
+            case "Remove A Role":
+                removeRole();
+                break;
+            case "Return To Main Menu":
+                runApp();
+                break;
+        }
+    })
+};
+
