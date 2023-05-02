@@ -60,8 +60,11 @@ Here I attached somescreenshots and links.
 ![edit_roles](./assets/images/Edit_Roles.png)
 ![validation_string](./assets/images/validation_string_nomorethan30char.png)
 ![validation_number](./assets/images/validation_salary_numberOnly.png)
+![view_data](./assets/images/view_data.png)
 
-A walkthrough video demonstrating the functionality of the application.
+A walkthrough video demonstrating the functionality of the application.-
+https://drive.google.com/file/d/1OXYx11l4DZJd1iC6rfmaLo_JKvUzP9oH/view
+
 
 The URL of the GitHub repository, with a unique name and a README describing the project.-
 https://github.com/avanijadeja/employee-tracker
