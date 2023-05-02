@@ -320,3 +320,21 @@ async function removeRole() {
         runApp();
     })
 };
+
+
+
+// Add a new department to the database
+async function addDepartment() {
+    inquirer.prompt([
+        {
+            name: "depName",
+            type: "input",
+            message: "Enter new department:",
+            validate: confirmStringInput
+        }
+    ]).then(answers => {
+        db.query("INSERT INTO department (name) VALUES (?)", [answers.depName]);
+        console.log("\x1b[32m", `${answers.depName} was added to departments.`);
+        runApp();
+    })
+};
