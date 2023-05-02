@@ -430,3 +430,31 @@ function editRoleOptions() {
     })
 };
 
+
+
+// Options to make changes to departments
+function editDepartmentOptions() {
+    inquirer.prompt({
+        name: "editDeps",
+        type: "list",
+        message: "What would you like to update?",
+        choices: [
+            "Add A New Department",
+            "Remove A Department",
+            "Return To Main Menu"
+        ]
+    }).then(responses => {
+        switch (responses.editDeps) {
+            case "Add A New Department":
+                addDepartment();
+                break;
+            case "Remove A Department":
+                removeDepartment();
+                break;
+            case "Return To Main Menu":
+                runApp();
+                break;
+        }
+    })
+};
+
