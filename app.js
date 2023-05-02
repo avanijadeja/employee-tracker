@@ -58,3 +58,13 @@ async function showRoleSummary() {
         runApp();
     })
 };
+
+// Builds a table which shows existing departments
+async function showDepartments() {
+    console.log(' ');
+    await db.query('SELECT id, name AS department FROM department', (err, res) => {
+        if (err) throw err;
+        console.table(res);
+        runApp();
+    })
+};
